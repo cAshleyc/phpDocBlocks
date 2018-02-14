@@ -5,6 +5,7 @@ File -> Settings -> Editor -> File and Code Templates -> Includes
 
 PHP Function Doc Comment:
 
+```
 #set( $regex = "([a-z])([A-Z]+)")
 #set( $replacement = "$1 $2")
 #set( $toSplit = $NAME.replaceAll($regex, $replacement))
@@ -26,3 +27,4 @@ ${toCapital}
 ${THROWS_DOC}
 #end
 */
+```
