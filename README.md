@@ -1,9 +1,13 @@
 # phpDocBlocks
 PHP Doc Block Comment
 
-File -> Settings -> Editor -> File and Code Templates -> Includes
+### To set Up Auto Comments
+Open File -> Settings -> Editor -> File and Code Templates -> Includes
 
+Find:
 PHP Function Doc Comment:
+
+Replace with the following: 
 
 ```
 #set( $regex = "([a-z])([A-Z]+)")
@@ -28,3 +32,6 @@ ${THROWS_DOC}
 #end
 */
 ```
+
+### To Use
+When coding, click the cursor onto the function name, hold the ALT key and press Return.  This should pop up a list of options, one being "Generate PHP Doc For Function"  Select this and the Doc Block Comments will be generated as set above.
